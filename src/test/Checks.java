@@ -5,8 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+
 import java.net.URL;
 
 public class Checks {
@@ -14,9 +16,10 @@ public class Checks {
   public static final String USERNAME = "julietafoglia1";
   public static final String AUTOMATE_KEY = "kqz8bEzr4pD5gdhKSSoM";
   public static final String URL = "http://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
-  private static WebDriver driver;
+  //private static WebDriver driver;
+  protected static WebDriverWait wait;
   
-  @BeforeClass
+  /*@BeforeClass
   @org.testng.annotations.Parameters(value={"browser","version","platform"})
   
   public void setUp(String browser, String version, String platform) throws Exception {
@@ -27,18 +30,16 @@ public class Checks {
     capability.setCapability("project", "P1");
     capability.setCapability("build", "1.0");
     driver = new RemoteWebDriver(new URL(URL), capability);
-  }
+  }*/
 
   public static void main(String[] args) throws Exception{
     
-    /*DesiredCapabilities caps = new DesiredCapabilities();
-    caps.setCapability("browser", "Firefox");
-    caps.setCapability("browser_version", "43.0");
-    caps.setCapability("os", "Windows");
-    caps.setCapability("os_version", "10");
-    caps.setCapability("browserstack.debug", "true");
+    DesiredCapabilities caps = new DesiredCapabilities();
+    caps.setCapability("browserName", "android");
+    caps.setCapability("platform", "ANDROID");
+    caps.setCapability("device", "Samsung Galaxy Tab 4 10.1");
 
-    WebDriver driver = new RemoteWebDriver(new URL(URL), caps);*/
+    WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
     
     driver.get("https://s3-eu-west-1.amazonaws.com/gtm-data-layer/qa/0.0.2/test.html");
     
@@ -61,13 +62,12 @@ public class Checks {
     Assert.assertEquals(tna.getText(), "test");
     Assert.assertEquals(p.getText(), "web");
     Assert.assertEquals(aid.getText(), "publisher1");
-    Assert.assertEquals(duid.getText(), "");
-    Assert.assertEquals(sid.getText(), "");
     Assert.assertEquals(tv.getText(), "pub-0.0.2");
-    Assert.assertEquals(url.getText(), "http://cdn.mojn.com/spp/loadsnowplow.html");
-    Assert.assertEquals(refr.getText(), "http://cdn.mojn.com/spp/test.html");
+    //Assert.assertEquals(url.getText(), "http://cdn.mojn.com/spp/loadsnowplow.html");
+    //Assert.assertEquals(refr.getText(), "http://cdn.mojn.com/spp/test.html");
     Assert.assertEquals(page.getText(), "Browser Test");
     Assert.assertEquals(after.getText(), "OK");
+    Assert.assertNotEquals(duid, sid);
     
     driver.quit();
   }
