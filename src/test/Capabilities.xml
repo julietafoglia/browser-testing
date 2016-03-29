@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Suite" parallel="tests">
+  <test name="IE 10 Test">
+  <parameter name="browser" value="IE"/>
+  <parameter name="version" value="10.0"/>
+  <parameter name="platform" value="WINDOWS"/>
+    <classes>
+      <class name="Checks"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="IE 11 Test">
+  <parameter name="browser" value="IE"/>
+  <parameter name="version" value="11.0"/>
+  <parameter name="platform" value="WINDOWS"/>
+    <classes>
+      <class name="Checks"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Firefox 43 Test">
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="version" value="43.0"/>
+  <parameter name="platform" value="WINDOWS"/>
+    <classes>
+      <class name="Checks"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Firefox 44 Test">
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="version" value="44.0"/>
+  <parameter name="platform" value="WINDOWS"/>
+    <classes>
+      <class name="Checks"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Chrome 47 Test">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="version" value="47.0"/>
+  <parameter name="platform" value="WINDOWS"/>
+    <classes>
+      <class name="Checks"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Chrome 48 Test">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="version" value="48.0"/>
+  <parameter name="platform" value="WINDOWS"/>
+    <classes>
+      <class name="Checks"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="MS Edge Test">
+  <parameter name="browser" value="Edge"/>
+  <parameter name="version" value="13.0"/>
+  <parameter name="platform" value="WINDOWS"/>
+    <classes>
+      <class name="Checks"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Safari 9 Test">
+  <parameter name="browser" value="Safari"/>
+  <parameter name="version" value="9.0"/>
+  <parameter name="platform" value="MAC"/>
+    <classes>
+      <class name="Checks"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Safari 9 Test">
+  <parameter name="browser" value="Safari"/>
+  <parameter name="version" value="9.0"/>
+  <parameter name="platform" value="MAC"/>
+    <classes>
+      <class name="Checks"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
