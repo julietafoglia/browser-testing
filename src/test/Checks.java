@@ -8,43 +8,43 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 public class Checks {
 
-  public static final String USERNAME = "julietafoglia1";
-  public static final String AUTOMATE_KEY = "kqz8bEzr4pD5gdhKSSoM";
-  public static final String URL = "http://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
-  //private static WebDriver driver;
-  protected static WebDriverWait wait;
+public static final String USERNAME = "julietafoglia3";
+public static final String AUTOMATE_KEY = "Q9k2gCGFEer4BnNT2dSA";
+public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
+private static WebDriver driver;
+protected static WebDriverWait wait;
   
-  /*@BeforeClass
-  @org.testng.annotations.Parameters(value={"browser","version","platform"})
-  
-  public void setUp(String browser, String version, String platform) throws Exception {
+  @BeforeClass
+  @Parameters(value={"browser","version","platform", "device"})
+  public void setUp(String browser, String version, String platform, String device) throws Exception {
     DesiredCapabilities capability = new DesiredCapabilities();
-    capability.setCapability("platform",platform);
+    capability.setCapability("platform", platform);
     capability.setCapability("browserName", browser);
     capability.setCapability("browserVersion", version);
-    capability.setCapability("project", "P1");
+    capability.setCapability("device", device);
+    capability.setCapability("project", "Cross browser testing");
     capability.setCapability("build", "1.0");
     driver = new RemoteWebDriver(new URL(URL), capability);
-  }*/
-
-  public static void main(String[] args) throws Exception{
-    
-    DesiredCapabilities caps = new DesiredCapabilities();
-    caps.setCapability("browserName", "android");
-    caps.setCapability("platform", "ANDROID");
-    caps.setCapability("device", "Samsung Galaxy Tab 4 10.1");
-
-    WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
-    
+    System.out.println("Testing " + browser + " " + version + " on " + platform + " with " + device + " device");
+  }
+  
+  @Test
+  public static void main() throws Exception{
+	  
     driver.get("https://s3-eu-west-1.amazonaws.com/gtm-data-layer/qa/0.0.2/test.html");
+    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     
-    WebElement link = driver.findElement(By.linkText("Go to test"));
+    WebElement link = driver.findElement(By.partialLinkText("Go to test"));
     link.click();
+    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     
     WebElement e = driver.findElement(By.id("e"));
     WebElement tna = driver.findElement(By.id("tna"));
@@ -67,7 +67,7 @@ public class Checks {
     //Assert.assertEquals(refr.getText(), "http://cdn.mojn.com/spp/test.html");
     Assert.assertEquals(page.getText(), "Browser Test");
     Assert.assertEquals(after.getText(), "OK");
-    Assert.assertNotEquals(duid, sid);
+    Assert.assertNotEquals(duid.getText(), sid.getText());
     
     driver.quit();
   }

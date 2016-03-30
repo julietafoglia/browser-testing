@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="11" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="platform" value="MAC"/>
+  <parameter name="browser" value="iPhone"/>
+  <parameter name="device" value="iPhone 5S"/>
+  <parameter name="version" value="default"/>
+  <test name="Android 4.3 Test(failed)">
+    <parameter name="platform" value="ANDROID"/>
+    <parameter name="device" value="Samsung Galaxy S4"/>
+    <parameter name="browser" value="android"/>
+    <parameter name="version" value="default"/>
+    <classes>
+      <class name="test.Checks">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- test.Checks -->
+    </classes>
+  </test> <!-- Android 4.3 Test(failed) -->
+  <test name="Android 4.2 Test(failed)">
+    <parameter name="platform" value="ANDROID"/>
+    <parameter name="device" value="Google Nexus 4"/>
+    <parameter name="browser" value="android"/>
+    <parameter name="version" value="default"/>
+    <classes>
+      <class name="test.Checks">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- test.Checks -->
+    </classes>
+  </test> <!-- Android 4.2 Test(failed) -->
+  <test name="Android 4.1 Test(failed)">
+    <parameter name="platform" value="ANDROID"/>
+    <parameter name="device" value="Samsung Galaxy S3"/>
+    <parameter name="browser" value="android"/>
+    <parameter name="version" value="default"/>
+    <classes>
+      <class name="test.Checks">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- test.Checks -->
+    </classes>
+  </test> <!-- Android 4.1 Test(failed) -->
+  <test name="Android 4.0 Test(failed)">
+    <parameter name="platform" value="ANDROID"/>
+    <parameter name="device" value="Google Nexus"/>
+    <parameter name="browser" value="android"/>
+    <parameter name="version" value="default"/>
+    <classes>
+      <class name="test.Checks">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- test.Checks -->
+    </classes>
+  </test> <!-- Android 4.0 Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
