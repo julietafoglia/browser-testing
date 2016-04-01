@@ -58,16 +58,19 @@ protected static WebDriverWait wait;
     WebElement page = driver.findElement(By.id("page"));
     WebElement after = driver.findElement(By.id("after"));
     
+    //Check that all elements have correct values
     Assert.assertEquals(e.getText(), "pv");
     Assert.assertEquals(tna.getText(), "test");
     Assert.assertEquals(p.getText(), "web");
     Assert.assertEquals(aid.getText(), "publisher1");
     Assert.assertEquals(tv.getText(), "pub-0.0.2");
-    //CHECK IF THE LINK IS CORRECT FOR THE NEXT TWO ELEMENTS
+    //-----CHECK IF THE LINK IS CORRECT FOR THE NEXT TWO ELEMENTS
     //Assert.assertEquals(url.getText(), "http://cdn.mojn.com/spp/loadsnowplow.html");
     //Assert.assertEquals(refr.getText(), "http://cdn.mojn.com/spp/test.html");
     Assert.assertEquals(page.getText(), "Browser Test");
     Assert.assertEquals(after.getText(), "OK");
+    
+    //Check that sid and duid have different values
     Assert.assertNotEquals(duid.getText(), sid.getText());
     
     driver.quit();
