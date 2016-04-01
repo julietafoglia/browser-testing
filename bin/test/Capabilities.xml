@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="11" name="Suite">
-	<!-- <test name="IE 10 Test">
+	<test name="IE 10 Test">
 		<parameter name="browser" value="IE" />
 		<parameter name="version" value="10.0" />
 		<parameter name="platform" value="WINDOWS" />
@@ -72,7 +72,7 @@
 		<classes>
 			<class name="test.Checks" />
 		</classes>
-	</test>  -->
+	</test>
 	<test name="Android 5.0 Test">
 		<parameter name="browser" value="android" />
 		<parameter name="device" value="Google Nexus 5" />
@@ -81,7 +81,7 @@
 		<classes>
 			<class name="test.Checks" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
 	<test name="Android 4.4 Test">
 		<parameter name="browser" value="android" />
 		<parameter name="device" value="Samsung Galaxy S5" />
@@ -90,7 +90,7 @@
 		<classes>
 			<class name="test.Checks" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
 	<test name="Android 4.3 Test">
 		<parameter name="browser" value="android" />
 		<parameter name="device" value="Samsung Galaxy S4" />
@@ -99,7 +99,7 @@
 		<classes>
 			<class name="test.Checks" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
 	<test name="Android 4.2 Test">
 		<parameter name="browser" value="android" />
 		<parameter name="device" value="Google Nexus 4" />
@@ -108,7 +108,7 @@
 		<classes>
 			<class name="test.Checks" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
 	<test name="Android 4.1 Test">
 		<parameter name="browser" value="android" />
 		<parameter name="device" value="Samsung Galaxy S3" />
@@ -117,7 +117,7 @@
 		<classes>
 			<class name="test.Checks" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
 	<test name="Android 4.0 Test">
 		<parameter name="browser" value="android" />
 		<parameter name="device" value="Google Nexus" />
@@ -126,7 +126,7 @@
 		<classes>
 			<class name="test.Checks" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
 	<test name="iOS 8 Test">
 		<parameter name="browser" value="iPhone" />
 		<parameter name="device" value="iPhone 6" />
@@ -135,7 +135,7 @@
 		<classes>
 			<class name="test.Checks" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
 	<test name="iOS 9 Test">
 		<parameter name="browser" value="iPhone" />
 		<parameter name="device" value="iPhone 6S" />
@@ -144,7 +144,7 @@
 		<classes>
 			<class name="test.Checks" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
 	<test name="iOS 7.0 Test">
 		<parameter name="browser" value="iPhone" />
 		<parameter name="device" value="iPhone 5S" />
@@ -153,5 +153,5 @@
 		<classes>
 			<class name="test.Checks" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
 </suite> <!-- Suite -->

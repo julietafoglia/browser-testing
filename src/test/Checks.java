@@ -41,7 +41,7 @@ protected static WebDriverWait wait;
 	  
     driver.get("https://s3-eu-west-1.amazonaws.com/gtm-data-layer/qa/0.0.2/test.html");
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    
+        
     WebElement link = driver.findElement(By.partialLinkText("Go to test"));
     link.click();
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -63,6 +63,7 @@ protected static WebDriverWait wait;
     Assert.assertEquals(p.getText(), "web");
     Assert.assertEquals(aid.getText(), "publisher1");
     Assert.assertEquals(tv.getText(), "pub-0.0.2");
+    //CHECK IF THE LINK IS CORRECT FOR THE NEXT TWO ELEMENTS
     //Assert.assertEquals(url.getText(), "http://cdn.mojn.com/spp/loadsnowplow.html");
     //Assert.assertEquals(refr.getText(), "http://cdn.mojn.com/spp/test.html");
     Assert.assertEquals(page.getText(), "Browser Test");

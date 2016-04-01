@@ -1,13 +1,285 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" total="9" passed="5">
+<testng-results skipped="0" failed="4" total="17" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="732191" started-at="2016-03-30T13:35:04Z" finished-at="2016-03-30T13:47:17Z">
+  <suite name="Suite" duration-ms="1344189" started-at="2016-03-30T14:01:34Z" finished-at="2016-03-30T14:23:58Z">
     <groups>
     </groups>
-    <test name="Android 5.0 Test" duration-ms="102419" started-at="2016-03-30T13:35:04Z" finished-at="2016-03-30T13:36:47Z">
+    <test name="IE 10 Test" duration-ms="40657" started-at="2016-03-30T14:01:34Z" finished-at="2016-03-30T14:02:14Z">
       <class name="test.Checks">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@76bfd849]" name="setUp" is-config="true" duration-ms="65721" started-at="2016-03-30T10:35:04Z" finished-at="2016-03-30T10:36:10Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@2d10dd87]" name="setUp" is-config="true" duration-ms="11410" started-at="2016-03-30T11:01:34Z" finished-at="2016-03-30T11:01:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[default]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@2d10dd87]" name="main" duration-ms="29232" started-at="2016-03-30T11:01:45Z" finished-at="2016-03-30T11:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- test.Checks -->
+    </test> <!-- IE 10 Test -->
+    <test name="IE 11 Test" duration-ms="29949" started-at="2016-03-30T14:02:15Z" finished-at="2016-03-30T14:02:44Z">
+      <class name="test.Checks">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@2ea37a18]" name="setUp" is-config="true" duration-ms="13979" started-at="2016-03-30T11:02:15Z" finished-at="2016-03-30T11:02:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[default]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@2ea37a18]" name="main" duration-ms="15967" started-at="2016-03-30T11:02:29Z" finished-at="2016-03-30T11:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- test.Checks -->
+    </test> <!-- IE 11 Test -->
+    <test name="Firefox 43 Test" duration-ms="26069" started-at="2016-03-30T14:02:45Z" finished-at="2016-03-30T14:03:11Z">
+      <class name="test.Checks">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@7c520467]" name="setUp" is-config="true" duration-ms="11365" started-at="2016-03-30T11:02:45Z" finished-at="2016-03-30T11:02:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[43.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[default]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@7c520467]" name="main" duration-ms="14702" started-at="2016-03-30T11:02:56Z" finished-at="2016-03-30T11:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- test.Checks -->
+    </test> <!-- Firefox 43 Test -->
+    <test name="Firefox 44 Test" duration-ms="21073" started-at="2016-03-30T14:03:11Z" finished-at="2016-03-30T14:03:32Z">
+      <class name="test.Checks">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@6981170d]" name="setUp" is-config="true" duration-ms="8823" started-at="2016-03-30T11:03:11Z" finished-at="2016-03-30T11:03:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[44.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[default]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@6981170d]" name="main" duration-ms="12248" started-at="2016-03-30T11:03:19Z" finished-at="2016-03-30T11:03:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- test.Checks -->
+    </test> <!-- Firefox 44 Test -->
+    <test name="Chrome 47 Test" duration-ms="21486" started-at="2016-03-30T14:03:32Z" finished-at="2016-03-30T14:03:53Z">
+      <class name="test.Checks">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@65ec4ad4]" name="setUp" is-config="true" duration-ms="8284" started-at="2016-03-30T11:03:32Z" finished-at="2016-03-30T11:03:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[47.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[default]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@65ec4ad4]" name="main" duration-ms="13198" started-at="2016-03-30T11:03:40Z" finished-at="2016-03-30T11:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- test.Checks -->
+    </test> <!-- Chrome 47 Test -->
+    <test name="Chrome 48 Test" duration-ms="18755" started-at="2016-03-30T14:03:53Z" finished-at="2016-03-30T14:04:12Z">
+      <class name="test.Checks">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@3d03b5b]" name="setUp" is-config="true" duration-ms="5216" started-at="2016-03-30T11:03:53Z" finished-at="2016-03-30T11:03:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[48.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[default]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@3d03b5b]" name="main" duration-ms="13536" started-at="2016-03-30T11:03:58Z" finished-at="2016-03-30T11:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- test.Checks -->
+    </test> <!-- Chrome 48 Test -->
+    <test name="MS Edge Test" duration-ms="24386" started-at="2016-03-30T14:04:12Z" finished-at="2016-03-30T14:04:36Z">
+      <class name="test.Checks">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@3937bf4]" name="setUp" is-config="true" duration-ms="9381" started-at="2016-03-30T11:04:12Z" finished-at="2016-03-30T11:04:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[default]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@3937bf4]" name="main" duration-ms="15002" started-at="2016-03-30T11:04:21Z" finished-at="2016-03-30T11:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- test.Checks -->
+    </test> <!-- MS Edge Test -->
+    <test name="Safari 9 Test" duration-ms="46901" started-at="2016-03-30T14:04:36Z" finished-at="2016-03-30T14:05:23Z">
+      <class name="test.Checks">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@7720ff6f]" name="setUp" is-config="true" duration-ms="19433" started-at="2016-03-30T11:04:36Z" finished-at="2016-03-30T11:04:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[default]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@7720ff6f]" name="main" duration-ms="27465" started-at="2016-03-30T11:04:56Z" finished-at="2016-03-30T11:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- test.Checks -->
+    </test> <!-- Safari 9 Test -->
+    <test name="Android 5.0 Test" duration-ms="465260" started-at="2016-03-30T14:05:23Z" finished-at="2016-03-30T14:13:09Z">
+      <class name="test.Checks">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@6e4ccfdc]" name="setUp" is-config="true" duration-ms="421591" started-at="2016-03-30T11:05:23Z" finished-at="2016-03-30T11:12:25Z">
           <params>
             <param index="0">
               <value>
@@ -33,15 +305,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@76bfd849]" name="main" duration-ms="36680" started-at="2016-03-30T10:36:10Z" finished-at="2016-03-30T10:36:47Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@6e4ccfdc]" name="main" duration-ms="43665" started-at="2016-03-30T11:12:25Z" finished-at="2016-03-30T11:13:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- test.Checks -->
     </test> <!-- Android 5.0 Test -->
-    <test name="Android 4.4 Test" duration-ms="110193" started-at="2016-03-30T13:36:47Z" finished-at="2016-03-30T13:38:37Z">
+    <test name="Android 4.4 Test" duration-ms="111364" started-at="2016-03-30T14:13:09Z" finished-at="2016-03-30T14:15:00Z">
       <class name="test.Checks">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@7c935c95]" name="setUp" is-config="true" duration-ms="83317" started-at="2016-03-30T10:36:47Z" finished-at="2016-03-30T10:38:10Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@6897cd75]" name="setUp" is-config="true" duration-ms="66953" started-at="2016-03-30T11:13:09Z" finished-at="2016-03-30T11:14:16Z">
           <params>
             <param index="0">
               <value>
@@ -67,15 +339,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@7c935c95]" name="main" duration-ms="26871" started-at="2016-03-30T10:38:10Z" finished-at="2016-03-30T10:38:37Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@6897cd75]" name="main" duration-ms="44410" started-at="2016-03-30T11:14:16Z" finished-at="2016-03-30T11:15:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- test.Checks -->
     </test> <!-- Android 4.4 Test -->
-    <test name="Android 4.3 Test" duration-ms="96854" started-at="2016-03-30T13:38:37Z" finished-at="2016-03-30T13:40:14Z">
+    <test name="Android 4.3 Test" duration-ms="77289" started-at="2016-03-30T14:15:00Z" finished-at="2016-03-30T14:16:17Z">
       <class name="test.Checks">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@2c7614d6]" name="setUp" is-config="true" duration-ms="86391" started-at="2016-03-30T10:38:37Z" finished-at="2016-03-30T10:40:04Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@3a40e900]" name="setUp" is-config="true" duration-ms="67172" started-at="2016-03-30T11:15:00Z" finished-at="2016-03-30T11:16:07Z">
           <params>
             <param index="0">
               <value>
@@ -101,7 +373,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="main()[pri:0, instance:test.Checks@2c7614d6]" name="main" duration-ms="10435" started-at="2016-03-30T10:40:04Z" finished-at="2016-03-30T10:40:14Z">
+        <test-method status="FAIL" signature="main()[pri:0, instance:test.Checks@3a40e900]" name="main" duration-ms="10109" started-at="2016-03-30T11:16:07Z" finished-at="2016-03-30T11:16:17Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Could not find element with id: e
@@ -109,14 +381,14 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: os.name: 'Linux', os.arch: 'i686', os.version: '3.4.0+', java.version: '0'
 Driver info: driver.version: EventFiringWebDriver
-Command duration or timeout: 6.74 seconds
+Command duration or timeout: 6.75 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
 *** Element info: {Using=id, value=e}
-Session ID: fb86a959de5a47cd9c53a10cb1770add95878675
+Session ID: 57691549a1e9c617338217c6f716874e2135908b
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=fb86a959de5a47cd9c53a10cb1770add95878675, version=18, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macyos, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S4-4.3-1080x1920}}]]]>
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=57691549a1e9c617338217c6f716874e2135908b, version=18, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macyos, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S4-4.3-1080x1920}}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Could not find element with id: e
@@ -124,14 +396,14 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: os.name: 'Linux', os.arch: 'i686', os.version: '3.4.0+', java.version: '0'
 Driver info: driver.version: EventFiringWebDriver
-Command duration or timeout: 6.74 seconds
+Command duration or timeout: 6.75 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
 *** Element info: {Using=id, value=e}
-Session ID: fb86a959de5a47cd9c53a10cb1770add95878675
+Session ID: 57691549a1e9c617338217c6f716874e2135908b
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=fb86a959de5a47cd9c53a10cb1770add95878675, version=18, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macyos, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S4-4.3-1080x1920}}]
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=57691549a1e9c617338217c6f716874e2135908b, version=18, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macyos, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S4-4.3-1080x1920}}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -204,9 +476,9 @@ Driver info: driver.version: EventFiringWebDriver
         </test-method> <!-- main -->
       </class> <!-- test.Checks -->
     </test> <!-- Android 4.3 Test -->
-    <test name="Android 4.2 Test" duration-ms="56197" started-at="2016-03-30T13:40:14Z" finished-at="2016-03-30T13:41:10Z">
+    <test name="Android 4.2 Test" duration-ms="62589" started-at="2016-03-30T14:16:18Z" finished-at="2016-03-30T14:17:20Z">
       <class name="test.Checks">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@7175bfc4]" name="setUp" is-config="true" duration-ms="35824" started-at="2016-03-30T10:40:14Z" finished-at="2016-03-30T10:40:50Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@37c02a77]" name="setUp" is-config="true" duration-ms="41946" started-at="2016-03-30T11:16:18Z" finished-at="2016-03-30T11:16:59Z">
           <params>
             <param index="0">
               <value>
@@ -232,7 +504,7 @@ Driver info: driver.version: EventFiringWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="main()[pri:0, instance:test.Checks@7175bfc4]" name="main" duration-ms="20354" started-at="2016-03-30T10:40:50Z" finished-at="2016-03-30T10:41:10Z">
+        <test-method status="FAIL" signature="main()[pri:0, instance:test.Checks@37c02a77]" name="main" duration-ms="20638" started-at="2016-03-30T11:16:59Z" finished-at="2016-03-30T11:17:20Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Could not find element with id: e
@@ -240,14 +512,14 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-gea477bb', java.version: '0'
 Driver info: driver.version: EventFiringWebDriver
-Command duration or timeout: 10.62 seconds
+Command duration or timeout: 11.04 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
 *** Element info: {Using=id, value=e}
-Session ID: 75b0313c4671bead0b6c1cbaa05d985fff2d9be4
+Session ID: 3cfee45138435aa29fc8511c73311cebf1045073
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=75b0313c4671bead0b6c1cbaa05d985fff2d9be4, version=17, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Google Nexus 4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Google Nexus 4-4.2-768x1280}}]]]>
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=3cfee45138435aa29fc8511c73311cebf1045073, version=17, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Google Nexus 4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Google Nexus 4-4.2-768x1280}}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Could not find element with id: e
@@ -255,14 +527,14 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-gea477bb', java.version: '0'
 Driver info: driver.version: EventFiringWebDriver
-Command duration or timeout: 10.62 seconds
+Command duration or timeout: 11.04 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
 *** Element info: {Using=id, value=e}
-Session ID: 75b0313c4671bead0b6c1cbaa05d985fff2d9be4
+Session ID: 3cfee45138435aa29fc8511c73311cebf1045073
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=75b0313c4671bead0b6c1cbaa05d985fff2d9be4, version=17, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Google Nexus 4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Google Nexus 4-4.2-768x1280}}]
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=3cfee45138435aa29fc8511c73311cebf1045073, version=17, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Google Nexus 4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Google Nexus 4-4.2-768x1280}}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -335,9 +607,9 @@ Driver info: driver.version: EventFiringWebDriver
         </test-method> <!-- main -->
       </class> <!-- test.Checks -->
     </test> <!-- Android 4.2 Test -->
-    <test name="Android 4.1 Test" duration-ms="63691" started-at="2016-03-30T13:41:10Z" finished-at="2016-03-30T13:42:14Z">
+    <test name="Android 4.1 Test" duration-ms="76460" started-at="2016-03-30T14:17:20Z" finished-at="2016-03-30T14:18:37Z">
       <class name="test.Checks">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@67e2f794]" name="setUp" is-config="true" duration-ms="43671" started-at="2016-03-30T10:41:10Z" finished-at="2016-03-30T10:41:54Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@4eb2b93]" name="setUp" is-config="true" duration-ms="56133" started-at="2016-03-30T11:17:20Z" finished-at="2016-03-30T11:18:16Z">
           <params>
             <param index="0">
               <value>
@@ -363,7 +635,7 @@ Driver info: driver.version: EventFiringWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="main()[pri:0, instance:test.Checks@67e2f794]" name="main" duration-ms="20010" started-at="2016-03-30T10:41:54Z" finished-at="2016-03-30T10:42:14Z">
+        <test-method status="FAIL" signature="main()[pri:0, instance:test.Checks@4eb2b93]" name="main" duration-ms="20320" started-at="2016-03-30T11:18:16Z" finished-at="2016-03-30T11:18:37Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Could not find element with id: e
@@ -371,14 +643,14 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-gc497e41', java.version: '0'
 Driver info: driver.version: EventFiringWebDriver
-Command duration or timeout: 10.82 seconds
+Command duration or timeout: 10.81 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
 *** Element info: {Using=id, value=e}
-Session ID: d7226b19fdc51abcf3f8772350692e5f86afd793
+Session ID: f80834387c1d2f04dc43716226a3e0be583e18ef
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=d7226b19fdc51abcf3f8772350692e5f86afd793, version=16, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S3, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S3-4.1-720x1280}}]]]>
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=f80834387c1d2f04dc43716226a3e0be583e18ef, version=16, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S3, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S3-4.1-720x1280}}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Could not find element with id: e
@@ -386,14 +658,14 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-gc497e41', java.version: '0'
 Driver info: driver.version: EventFiringWebDriver
-Command duration or timeout: 10.82 seconds
+Command duration or timeout: 10.81 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
 *** Element info: {Using=id, value=e}
-Session ID: d7226b19fdc51abcf3f8772350692e5f86afd793
+Session ID: f80834387c1d2f04dc43716226a3e0be583e18ef
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=d7226b19fdc51abcf3f8772350692e5f86afd793, version=16, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S3, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S3-4.1-720x1280}}]
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=f80834387c1d2f04dc43716226a3e0be583e18ef, version=16, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S3, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S3-4.1-720x1280}}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -467,9 +739,9 @@ Driver info: driver.version: EventFiringWebDriver
         </test-method> <!-- main -->
       </class> <!-- test.Checks -->
     </test> <!-- Android 4.1 Test -->
-    <test name="Android 4.0 Test" duration-ms="57184" started-at="2016-03-30T13:42:14Z" finished-at="2016-03-30T13:43:11Z">
+    <test name="Android 4.0 Test" duration-ms="53333" started-at="2016-03-30T14:18:37Z" finished-at="2016-03-30T14:19:30Z">
       <class name="test.Checks">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@5f9c2347]" name="setUp" is-config="true" duration-ms="29587" started-at="2016-03-30T10:42:14Z" finished-at="2016-03-30T10:42:44Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@5b3353f]" name="setUp" is-config="true" duration-ms="33136" started-at="2016-03-30T11:18:37Z" finished-at="2016-03-30T11:19:10Z">
           <params>
             <param index="0">
               <value>
@@ -495,7 +767,7 @@ Driver info: driver.version: EventFiringWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="main()[pri:0, instance:test.Checks@5f9c2347]" name="main" duration-ms="27590" started-at="2016-03-30T10:42:44Z" finished-at="2016-03-30T10:43:11Z">
+        <test-method status="FAIL" signature="main()[pri:0, instance:test.Checks@5b3353f]" name="main" duration-ms="20192" started-at="2016-03-30T11:19:10Z" finished-at="2016-03-30T11:19:30Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Could not find element with id: e
@@ -503,14 +775,14 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-g46b05b2', java.version: '0'
 Driver info: driver.version: EventFiringWebDriver
-Command duration or timeout: 10.78 seconds
+Command duration or timeout: 10.69 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
 *** Element info: {Using=id, value=e}
-Session ID: bd92cc26a6fb31dcca7f3aead000ca978ba30f92
+Session ID: 17e9c78d05dc6b64430726feb6ce35805ab6c6f0
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=bd92cc26a6fb31dcca7f3aead000ca978ba30f92, version=15, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Google Nexus, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Google Nexus-4.0-720x1280}}]]]>
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=17e9c78d05dc6b64430726feb6ce35805ab6c6f0, version=15, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Google Nexus, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Google Nexus-4.0-720x1280}}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Could not find element with id: e
@@ -518,14 +790,14 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-g46b05b2', java.version: '0'
 Driver info: driver.version: EventFiringWebDriver
-Command duration or timeout: 10.78 seconds
+Command duration or timeout: 10.69 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
 *** Element info: {Using=id, value=e}
-Session ID: bd92cc26a6fb31dcca7f3aead000ca978ba30f92
+Session ID: 17e9c78d05dc6b64430726feb6ce35805ab6c6f0
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=bd92cc26a6fb31dcca7f3aead000ca978ba30f92, version=15, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Google Nexus, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Google Nexus-4.0-720x1280}}]
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=17e9c78d05dc6b64430726feb6ce35805ab6c6f0, version=15, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Google Nexus, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Google Nexus-4.0-720x1280}}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -599,9 +871,9 @@ Driver info: driver.version: EventFiringWebDriver
         </test-method> <!-- main -->
       </class> <!-- test.Checks -->
     </test> <!-- Android 4.0 Test -->
-    <test name="iOS 8 Test" duration-ms="71044" started-at="2016-03-30T13:43:11Z" finished-at="2016-03-30T13:44:22Z">
+    <test name="iOS 8 Test" duration-ms="81294" started-at="2016-03-30T14:19:30Z" finished-at="2016-03-30T14:20:51Z">
       <class name="test.Checks">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@26319e5b]" name="setUp" is-config="true" duration-ms="49981" started-at="2016-03-30T10:43:11Z" finished-at="2016-03-30T10:44:01Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@3b3d8503]" name="setUp" is-config="true" duration-ms="58254" started-at="2016-03-30T11:19:30Z" finished-at="2016-03-30T11:20:28Z">
           <params>
             <param index="0">
               <value>
@@ -627,15 +899,15 @@ Driver info: driver.version: EventFiringWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@26319e5b]" name="main" duration-ms="21059" started-at="2016-03-30T10:44:01Z" finished-at="2016-03-30T10:44:22Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@3b3d8503]" name="main" duration-ms="23039" started-at="2016-03-30T11:20:28Z" finished-at="2016-03-30T11:20:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- test.Checks -->
     </test> <!-- iOS 8 Test -->
-    <test name="iOS 9 Test" duration-ms="96343" started-at="2016-03-30T13:44:22Z" finished-at="2016-03-30T13:45:59Z">
+    <test name="iOS 9 Test" duration-ms="105486" started-at="2016-03-30T14:20:51Z" finished-at="2016-03-30T14:22:37Z">
       <class name="test.Checks">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@7b4712c3]" name="setUp" is-config="true" duration-ms="64948" started-at="2016-03-30T10:44:22Z" finished-at="2016-03-30T10:45:27Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@389c3ed1]" name="setUp" is-config="true" duration-ms="73919" started-at="2016-03-30T11:20:51Z" finished-at="2016-03-30T11:22:05Z">
           <params>
             <param index="0">
               <value>
@@ -661,15 +933,15 @@ Driver info: driver.version: EventFiringWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@7b4712c3]" name="main" duration-ms="31391" started-at="2016-03-30T10:45:27Z" finished-at="2016-03-30T10:45:59Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@389c3ed1]" name="main" duration-ms="31565" started-at="2016-03-30T11:22:05Z" finished-at="2016-03-30T11:22:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- test.Checks -->
     </test> <!-- iOS 9 Test -->
-    <test name="iOS 7.0 Test" duration-ms="77719" started-at="2016-03-30T13:45:59Z" finished-at="2016-03-30T13:47:17Z">
+    <test name="iOS 7.0 Test" duration-ms="80984" started-at="2016-03-30T14:22:37Z" finished-at="2016-03-30T14:23:58Z">
       <class name="test.Checks">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@65fbadc2]" name="setUp" is-config="true" duration-ms="59058" started-at="2016-03-30T10:45:59Z" finished-at="2016-03-30T10:46:58Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Checks@116bb691]" name="setUp" is-config="true" duration-ms="60568" started-at="2016-03-30T11:22:37Z" finished-at="2016-03-30T11:23:37Z">
           <params>
             <param index="0">
               <value>
@@ -695,7 +967,7 @@ Driver info: driver.version: EventFiringWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@65fbadc2]" name="main" duration-ms="18658" started-at="2016-03-30T10:46:58Z" finished-at="2016-03-30T10:47:17Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:test.Checks@116bb691]" name="main" duration-ms="20415" started-at="2016-03-30T11:23:37Z" finished-at="2016-03-30T11:23:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
